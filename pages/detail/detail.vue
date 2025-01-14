@@ -1,7 +1,7 @@
 <template>
 	<view class="detail">
 		<view class="product">
-			<image class="product-image" src="https://via.placeholder.com/300" mode="aspectFit"></image>
+			<image class="product-image" src="../../static/logo.png" mode="aspectFit"></image>
 			<text class="product-title">示例商品</text>
 			<text class="product-price">¥99.00</text>
 
@@ -27,10 +27,6 @@
 			<text class="section-title">商品详情</text>
 			<view class="detail-content">
 				<text class="detail-text">这是一个演示商品，用于展示 GSS Analytics SDK 的各种统计功能。</text>
-				<text class="detail-text">1. 自动 PV 统计</text>
-				<text class="detail-text">2. 按钮点击事件</text>
-				<text class="detail-text">3. 自定义事件</text>
-				<text class="detail-text">4. 页面停留时长</text>
 			</view>
 		</view>
 	</view>
@@ -92,6 +88,7 @@
 		width: 300px;
 		height: 300px;
 		margin-bottom: 20px;
+		border-radius: 50rpx;
 	}
 
 	.product-title {
@@ -126,6 +123,7 @@
 		padding: 15px;
 		background-color: #f8f8f8;
 		border-radius: 8px;
+		margin-top: 20px;
 	}
 
 	.detail-text {
